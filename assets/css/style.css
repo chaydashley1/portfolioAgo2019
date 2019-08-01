@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-image: url("/assets/images/dots.jpg");
+}
+
+.navbar-nav {
+  color: #ffffff;
+}
+
+.bg-light {
+  background-color: #ff4040 !important;
+}
+
+h3 {
+  font-family: "Barlow", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  padding-left: 45%;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  padding: 17px;
+  background-color: #ff4040;
+  margin-top: -8px;
+  margin-bottom: -6px;
+}
+
+.dropdown-item {
+  display: flex;
+}
+
+.auth-image {
+  display: flex;
+  right: 70%;
+  margin-left: 20px;
+}
+
+.lead {
+  display: flex;
+  margin-top: 20px;
+  font-size: 16px;
+  color: gray;
+  line-height: 35px;
+}
+
+l .h3,
+h3 {
+  font-size: 30px;
+  color: #ff4040;
+  display: flex;
+  top: 8px;
+  border-bottom: 1px solid #999;
+  font-size: 1.75rem;
+  padding: 27px;
+}
+
+.jumbotron {
+  margin: 3em;
+  background-image: url("/assets/images/dots.jpg");
+}
+
+footer {
+  padding: 35px 0px 0px;
+
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  background: #ff4040;
+  border-top: 3px solid lightgrey;
+  height: 100%;
+  width: auto;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  display: block;
+  top: -17px;
+}
