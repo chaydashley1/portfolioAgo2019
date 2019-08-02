@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   background-image: url("/assets/images/dots.jpg");
+  box-sizing: none;
 }
 
 .navbar-nav {
@@ -20,6 +21,7 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -40,15 +42,14 @@ p {
 
 .auth-image {
   display: flex;
-  right: 70%;
-  margin-left: 20px;
+  margin: auto;
 }
 
 .lead {
   display: flex;
   margin-top: 20px;
   font-size: 16px;
-  color: gray;
+  color: #94a0af;
   line-height: 35px;
 }
 
@@ -58,14 +59,50 @@ h3 {
   color: #ff4040;
   display: flex;
   top: 8px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid#94a0af;
   font-size: 1.75rem;
   padding: 27px;
 }
 
+p.name {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  color: #6c757d;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  margin-top: 0;
+}
 .jumbotron {
-  margin: 3em;
-  background-image: url("/assets/images/dots.jpg");
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+/* socialmedia */
+ul {
+  display: flex;
+}
+.socialmedia {
+  padding-left: 18% !important;
+  padding-right: 18% !important;
+}
+ul li {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 footer {
