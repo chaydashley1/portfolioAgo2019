@@ -48,9 +48,9 @@ section {
   padding: 20px;
 }
 
-.navbar-expand-lg .navbar-collapse {
+/* .navbar-expand-lg .navbar-collapse {
   padding-left: 45%;
-}
+} */
 
 .container1 .container2 .container3 {
   padding: 20%;
@@ -60,13 +60,13 @@ section {
   color: white;
   padding: 17px;
   background-color: #ff4040;
-  margin-top: -8px;
+  /* margin-top: -8px;
   margin-bottom: -6px;
-}
-.icons {
+} */
+/* .icons {
   display: flex;
   bottom: 10px;
-  top: 10px;
+  top: 10px; */
 }
 .dropdown-item {
   display: flex;
@@ -97,17 +97,13 @@ h3 {
 }
 .jumbotron {
   background-color: white;
-padding: 0;}
+padding: 0 auto;
+/* 
 
 body,
 html {
   height: 100%;
-}
-
-body,
-html {
-  height: 100%;
-}
+} */
 
 .navbar-collapse {
   display: flex;
