@@ -1,5 +1,28 @@
 /* ---------------- */
+* {
+  padding: 0;
+  margin: 0;
+  background-image: url("/assets/images/dots.jpg");
+}
 
+.navbar-expand-lg .navbar-collapse {
+  padding-left: 45%;
+  /* padding: 0 */
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  padding: 17px;
+  background-color: #ff4040;
+  margin-top: -8px;
+  margin-bottom: -6px;
+}
+
+.dropdown-item {
+  display: flex;
+}
+
+/* ------------------- */
 .bg-light {
   background-color: #ff4040 !important;
 }
@@ -45,7 +68,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 0px auto;
 }
 
 /* .navbar-expand-lg .navbar-collapse {
@@ -63,7 +86,7 @@ section {
   /* margin-top: -8px;
   margin-bottom: -6px;
 } */
-/* .icons {
+  /* .icons {
   display: flex;
   bottom: 10px;
   top: 10px; */
@@ -97,7 +120,12 @@ h3 {
 }
 .jumbotron {
   background-color: white;
-padding: 0 auto;
+}
+
+.jumbotron-fluid {
+  padding: 0;
+}
+
 /* 
 
 body,
@@ -111,30 +139,45 @@ html {
   color: #ffffff;
   text-align: center;
 
+  a {
+    color: #ff4040;
+    letter-spacing: 0px;
+    text-decoration: none;
+  }
+  .btn-lg {
+    padding: 0.5rem 4rem;
+    font-size: 15px;
+    line-height: -7.5;
+    border-radius: 0rem;
+    background-color: #94a0af;
+  }
+  h5.card-title {
+    color: #6c757d;
+  }
 
-a {
-  color: #ff4040;
-  letter-spacing: 0px;
+  p.card-text {
+    color: #6c757d;
+  }
+
+  .footer {
+    padding:3%!important;
+    background-color: #ff4040;
+    /* clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center; */
+    /*  
+  border-top: 3px solid lightgrey;
+  height: 100%;
+  width: auto;
+  letter-spacing: 1px;
+  font-size: 15px; */
+  }
+  /* .footer a{
   text-decoration: none;
-}
-.btn-lg {
-  padding: 0.5rem 4rem;
-  font-size: 15px;
-  line-height: -7.5;
-  border-radius: 0rem;
-  background-color: #94a0af;
-}
-h5.card-title {
-  color: #6c757d;
-}
-
-p.card-text {
-  color: #6c757d;
-}
-footer {
-  background-color: #ff4040;
-  text-align: center;
-}
-
-
-
+  color: white;
+  position:relative;
+  display: block;
+  top:-17px;
+   */
+/* } */
