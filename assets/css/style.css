@@ -4,9 +4,15 @@
   background-image: url("/assets/images/dots.jpg");
   box-sizing: none;
 }
-
+.navbar-collapse {
+  display: flex;
+  left: 50%;
+  color: #ffffff;
+  text-align: center;
+}
 .navbar-nav {
   color: #ffffff;
+  align-content: center;
 }
 
 .bg-light {

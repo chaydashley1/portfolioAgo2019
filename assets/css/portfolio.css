@@ -97,7 +97,7 @@ h3 {
 }
 .jumbotron {
   background-color: white;
-}
+padding: 0;}
 
 body,
 html {
@@ -109,13 +109,12 @@ html {
   height: 100%;
 }
 
-.jumbotron-fluid {
-  padding-right: 26px;
-  padding-left: 26px;
-  border-radius: 0;
-  padding-top: 12px;
-  padding-bottom: 10px;
-}
+.navbar-collapse {
+  display: flex;
+  left: 50%;
+  color: #ffffff;
+  text-align: center;
+
 
 a {
   color: #ff4040;
@@ -137,22 +136,9 @@ p.card-text {
   color: #6c757d;
 }
 footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 12px;
-  color: #ffffff;
-  color: #fff;
+  background-color: #ff4040;
   text-align: center;
-  background: #ff4040;
-  border-top: 3px solid lightgrey;
-  height: 50px;
-  letter-spacing: 1px;
-  font-size: 15px;
 }
-.footer a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-  display: block;
-  top: -17px;
-}
+
+
+
